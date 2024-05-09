@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: `${options.name}`,
     images: [
       {
-        url: "https://sridharmusicalinstitute.com/images/smilogo.png", // Must be an absolute URL
+        url: "https://main.drwkmsrlccwle.amplifyapp.com/images/manobal-logo.png", // Must be an absolute URL
         width: 720,
         height: 230,
       },
