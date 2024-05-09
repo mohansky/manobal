@@ -86,7 +86,7 @@ export default function ProductsPage({
 
   return (
     <Bounded width="marginxy">
-      <div className="flex justify-between">
+      <div className="flex flex-wrap justify-between">
         <div>
           <Heading size="md" fontstyle="bold" className="mb-5">
             Products
@@ -96,7 +96,7 @@ export default function ProductsPage({
               key={index}
               href={`?category=${item.value}`}
               scroll={false}
-              className="mr-3 px-4 py-2 text-sm font-semibold bg-muted rounded-lg hover:bg-black hover:text-muted focus:bg-black focus:text-muted transition duration-150 ease-out hover:ease-in"
+              className="mb-10 mr-3 px-4 py-2 text-sm font-semibold bg-muted rounded-lg hover:bg-black hover:text-muted focus:bg-black focus:text-muted transition duration-150 ease-out hover:ease-in"
             >
               {item.name}
             </Link>
