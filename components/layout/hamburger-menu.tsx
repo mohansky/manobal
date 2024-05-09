@@ -27,21 +27,21 @@ export default function HamburgerMenu() {
           <SheetContent className="w-full">
             <ThemeToggle />
 
-            <NavigationMenu className="my-2">
-              <NavigationMenuList className="mx-3">
+            <NavigationMenu className="mx-auto my-20">
+              <NavigationMenuList className="flex-col w-full">
                 {options.links.map((item: any, index: any) => (
-                  <NavigationMenuItem key={index}>
+                  <NavigationMenuItem key={index} className="mx-auto my-2">
                     <Link href={item.link} legacyBehavior passHref>
                       <NavigationMenuLink
                         className={navigationMenuTriggerStyle()}
                       >
-                        {item.text}
+                        <SheetTrigger>{item.text}</SheetTrigger>
                       </NavigationMenuLink>
                     </Link>
                   </NavigationMenuItem>
                 ))}
               </NavigationMenuList>
-              <ThemeToggle />
+              {/* <ThemeToggle /> */}
             </NavigationMenu>
           </SheetContent>
         </Sheet>

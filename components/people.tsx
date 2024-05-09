@@ -31,7 +31,7 @@ export default function People() {
               </p>
             </div>
 
-            <div className="mt-5 flex justify-between ">
+            <div className="mt-5 flex flex-wrap gap-4 justify-between ">
               <Image src="/images/people.jpg" alt="" width="180" height="180" />
               <Image src="/images/people.jpg" alt="" width="180" height="180" />
               <Image src="/images/people.jpg" alt="" width="180" height="180" />

@@ -28,7 +28,7 @@ const Search = ({ search }: { search?: string }) => {
 
   return (
     <>
-      <div className="flex">
+      <div className="flex mt-10 md:mt-1">
         <Label htmlFor="text" className="my-auto mr-5">Search: </Label>
 
         <Input
