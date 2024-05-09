@@ -1,0 +1,50 @@
+name: Manobal
+title: Manobal | Empowering Women. Reviving Craft.
+description: Empowering Women. Reviving Craft.
+basepath: https://manobal.com/
+keywords:
+  - Sridhar Musical Institute
+  - Guitar class
+  - Drum class
+  - Keyboard class
+author:
+  name: Maarif Haque
+  email: maarif@gmail.com
+  url: https://manobal.com/
+heroslider:
+  - image: /images/classes/guitar.jpg
+    title: Sridhar Musical Institute
+    subtitle: Since 1978
+    btnText: Contact
+    link: /#contact
+  - image: /images/classes/drums.jpg
+    title: SMI specializes in
+    subtitle: Guitars, Drums and Keyboard classes.
+    btnText: Classes
+    link: /classes
+links:
+  - text: Home
+    link: /
+  - text: Shop
+    link: /shop
+  - text: About Us
+    link: /about-us
+socials: 
+  - name: YouTube
+    icon: youtube
+    link: https://www.youtube.com/@manobal
+  - name: Facebook
+    icon: facebook
+    link: https://www.facebook.com/@manobal
+  - name: Instagram
+    icon: instagram
+    link: https://www.instagram.com/@manobal
+faq:
+  - question: How much do the classes cost?
+    answer:  Admission Rs. 1,000/- Monthly Fees Rs. 3,000/- for regular classes and for Crash Course Rs.18,000/-. Late fee will be charged 200/- extra.
+  - question: How many classes per month?
+    answer:  Weekly 2 classes and Monthly 8 Classes. If the student is absent, then maximum 2 grace classes will be given. If the teacher misses the class, then it will be compensated wholly.
+  - question: Do I need to carry my own instruments?
+    answer:  Yes. Carry your own Guitar, Plectrum & Drumsticks. You can also hire instruments from SMI. Instrument Sales & Services are also undertaken.
+  - question: I have a friend who wants to learn, will I get a discount?
+    answer:  Yes. References are appreciated and will be given a discount of 500/- each for the first month fee only.
